@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+.sidebar {
+    
+    flex: 0.14;
+    border-right: 1px solid whitesmoke;
+    /* max-width: 300px; */
+    padding-right: 20px;
+}
+.add{
+    font-size: 38px !important;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.sidebar__compose{
+    /* font-family: 'Times New Roman', Times, serif;
+     */
+     font-size: 17px !important;
+     font-weight: 600 !important;
+    width: 180px !important;
+    margin-top: 15px !important;
+    margin-left: 10px !important;
+    margin-bottom: 15px !important;
+    text-transform: capitalize !important;
+    color: gray;
+    padding: 12px 5px !important;
+    border-radius: 30px !important;
+    box-shadow: 0px 2px 5px -2px rgba(0, 0, 0, 0.75);
+
+}
+.title_name{
+    padding-left: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: 400;
+}
+.title_nam{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+.adder{
+    font-size: 30px !important;
+}
+.sidebar__foot{
+    /* color: gray; */
+    
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+.sidebar__footer__sub{
+    display: flex;
+    align-items: center;
+    
+}
+
+
+hr{
+    border-bottom: 1px solid whitesmoke;
+}
+.avatar{
+    margin-right: 15px !important;
+}
+.sidebar__footer {
+    display: flex;
+    justify-content: center;
+}
+
+
+@media screen and (max-width:600px) {
+    .sidebar{
+        display: none;
+    }
+    .buttonShow{
+        display: inline-block;
+        position: absolute;
+        left: 50px;
+    }
+}

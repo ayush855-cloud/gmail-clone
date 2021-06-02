@@ -1,0 +1,83 @@
+.header  {
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid whitesmoke;
+}
+.header__left {
+    display: flex;
+    align-items: center;
+}
+.menu{
+    margin-left: 10px !important;
+    padding-right: 7px !important;
+  font-size: 30px !important;
+}
+.header__left > img {
+    width: 135px;
+    height: 80px;
+    object-fit: contain;
+}
+
+.header__middle {
+    /* margin-left: -200px; */
+    display: flex;
+    flex: 0.7;
+    align-items: center;
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.header__middle > .MuiSvgIcon-root {
+    color: grey;
+}
+
+.header__middle > input {
+    border: none;
+    /* margin-left: -50px; */
+    width: 100%;
+    padding: 10px;
+    outline-width: 0;
+    font-size: medium;
+    background-color: transparent;
+
+}
+.apps{
+    font-size: 28px !important;
+}
+.notifications{
+    font-size: 28px !important;
+}
+.avatar{
+    margin-top: 8px !important;
+    font-size: 28px !important;
+}
+.header__right {
+    /* font-size: 32px !important; */
+    display: flex;
+    padding-right: 20px;
+}
+
+@media screen and (max-width:400px){
+    .header__left > img{
+        display: none;
+    }
+    .header__right  .MuiSvgIcon-root{
+       display: none;
+    }
+   .header__middle{
+    position: absolute;
+    flex: 1 ;
+    right: 83px;
+    left: 51px;
+    
+    padding: 4px;
+    border-radius: 5px;
+   }
+   .header{
+       
+       width: 103vw;
+   }
+}

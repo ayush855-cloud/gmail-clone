@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.emailList {
+    flex: 0.86;
+    
+    overflow: scroll;
+}
+
+.emailList::-webkit-scrollbar{
+    display: none;
+}
+
+.emailList {
+    -ms-overflow-style: none;
+     scrollbar-width:none;
+}
+
+.emailList__settings {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid whitesmoke;
+    background-color: white;
+    z-index: 999;
+    padding-right: 10px;
+}
+
+.emailList__sections{
+    position: sticky;
+    top: 0;
+    display: flex;
+    font-family:'Roboto', sans-serif;
+    letter-spacing: 0.6px;
+    border-bottom: 1px solid whitesmoke;
+    background-color: white;
+    z-index: 999;
+}
+
+
+
+@media screen and (max-width:600px) {
+    .emailList{
+        flex: 1;
+    }
+    .emailList__sections{
+        flex-direction: column;
+        
+    }
+    .emailList__settings{
+        display: none;
+    }
+    .emailList_list{
+        overflow-y: scroll;
+        background-color: whitesmoke !important;
+        transition: 0.5s all;
+    }
+}
