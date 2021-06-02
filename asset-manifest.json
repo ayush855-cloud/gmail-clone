@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/gmail-clone/static/css/main.382cf55a.chunk.css",
+    "main.js": "/gmail-clone/static/js/main.7bc5e67a.chunk.js",
+    "main.js.map": "/gmail-clone/static/js/main.7bc5e67a.chunk.js.map",
+    "runtime-main.js": "/gmail-clone/static/js/runtime-main.f71d02af.js",
+    "runtime-main.js.map": "/gmail-clone/static/js/runtime-main.f71d02af.js.map",
+    "static/js/2.44955e0d.chunk.js": "/gmail-clone/static/js/2.44955e0d.chunk.js",
+    "static/js/2.44955e0d.chunk.js.map": "/gmail-clone/static/js/2.44955e0d.chunk.js.map",
+    "index.html": "/gmail-clone/index.html",
+    "static/css/main.382cf55a.chunk.css.map": "/gmail-clone/static/css/main.382cf55a.chunk.css.map",
+    "static/js/2.44955e0d.chunk.js.LICENSE.txt": "/gmail-clone/static/js/2.44955e0d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f71d02af.js",
+    "static/js/2.44955e0d.chunk.js",
+    "static/css/main.382cf55a.chunk.css",
+    "static/js/main.7bc5e67a.chunk.js"
+  ]
+}
